@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Image Carousel</title>
+  <title>Responsive Image Carousel</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,10 +11,19 @@
   <div class="carousel">
     <button class="prev">&#10094;</button>
 
-    <div class="carousel-images">
-      <img src="images/Cat1.jpg" class="carousel-image active" alt="Image 1" />
-      <img src="images/Cat2.jpg" class="carousel-image" alt="Image 2" />
-      <img src="images/Cat3.jpg" class="carousel-image" alt="Image 3" />
+    <div class="carousel-container">
+      <div class="carousel-slide active">
+        <img src="images/Cat1.jpg" alt="Image 1" />
+        <div class="caption">Explore the peaceful mountains</div>
+      </div>
+      <div class="carousel-slide">
+        <img src="images/Cat2.jpg" alt="Image 2" />
+        <div class="caption">Relax by the calm lake</div>
+      </div>
+      <div class="carousel-slide">
+        <img src="images/Cat3.jpg" alt="Image 3" />
+        <div class="caption">Enjoy the vibrant city nights</div>
+      </div>
     </div>
 
     <button class="next">&#10095;</button>
